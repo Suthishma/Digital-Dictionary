@@ -1,0 +1,177 @@
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(150, 84, 150);
+
+}
+.row{
+    
+    width: 100%;
+    max-width: 48rem;
+    height: auto;
+    background: #ad71d9;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    box-shadow: 10px 10px 5px;
+    word-break: break-word;
+    border-radius: 2rem;
+    
+}
+
+
+.me-2 {
+    margin-right: 2.5rem !important;
+    height: 4rem;
+    
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#form {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Adjust spacing */
+    margin-top: 1rem;
+}
+
+#form input {
+    flex: 1; /* Make the input field take up the available space */
+    max-width: calc(100%  7rem); /* Ensure it doesn't grow too large */
+    margin-right: 1rem; /* Add spacing between input and button */
+    height: 3rem; /* Match button height */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+
+.btn-outline-success {
+    --bs-btn-color: #f7f7f7;
+    --bs-btn-border-color: #9c47d7;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6529b2;
+    --bs-btn-hover-border-color: #9427c4;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6529b2;
+    --bs-btn-active-border-color: #9427c4;
+    --bs-btn-disabled-color: #6529b2;
+    --bs-btn-disabled-border-color: #6529b2;
+
+}
+
+.btn {
+    --bs-btn-padding-x: 1.95rem;
+    --bs-btn-padding-y: 0.75rem;
+    --bs-btn-bg: #0b1d2c;
+   }
+
+.meanings{
+    margin: 2rem;
+    margin-top: 2rem;
+    
+}
+.meanings h3{
+    display: inline-block;
+    font-size: 2em;
+    container-name: sidebar;
+    padding-bottom: 0rem;
+
+    
+}
+
+.meanings .phonetic{
+    padding-top: 0rem;
+
+}
+
+.meanings .partOfSpeech{
+        font-size: 1.5em;
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+
+.meanings .defintions{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-style: italic;
+}
+
+
+
+
+@container sidebar (min-width: 700px) {
+    .meanings h3 {
+      font-size: 2em;
+    }
+  }
+
+.verb{
+    margin: 2rem;
+    margin-top: 2rem;
+
+}
+
+.dictionary{
+    display: none;
+}
+
+.error{
+    margin: 2rem;
+    font-size: 1.5rem;
+    margin-left: 9rem;
+    display: none;
+}
+
+.example{
+    display: none;
+    margin: 2rem;
+    margin-top: 2rem;
+    
+    
+}
+
+.example h5{
+    font-size: 1.5em;
+    font-family: "Poppins", serif;
+    font-style: italic;
+    
+    font-weight: 700;
+}
+
+.example p{
+
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    
+
+}
+
+.volume{
+    display: none;
+}
+
+.phonetic-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.volume button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+   
